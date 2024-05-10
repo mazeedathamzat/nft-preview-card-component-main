@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.wrapper{
+    background-color:hsl(217, 54%, 11%) ;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+.container{
+    background-color:  hsl(217, 50%, 16%);
+    width: 400px;
+    margin: auto;
+    padding: 20px;
+    border-radius: px;
+}
+.image img{
+    border-radius: 20px;
+    width: 100%;
+}
+.sub-heading{
+    color: hsl(215, 51%, 70%);
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 29px;
+    font-family: sans-serif;
+    
+    
+}
+.heading{
+    color: hsl(0, 0%, 100%);
+    font-size: 25px;
+    font-weight: 40px;
+    margin-top: 28px;
+    font-family: sans-serif;
+}
+.time{
+    color:hsl(178, 100%, 50%) ;
+    padding-inline: 8px;
+    font-family: sans-serif;
+}
+.days{
+    color: hsl(215, 56%, 62%) ;
+    padding-inline: 8px;
+    font-family: sans-serif;
+    
+}
+.text{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+    border-bottom: 1px solid hsl(215, 32%, 27%);
+    height: 45px;
+}
+.profile {
+    gap: 10px;
+    margin-top: 18px;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+
+}
+.passport img{
+    width: 40px;
+}
+.content{
+    color:hsl(215, 56%, 62%) ;
+}
+.half-content{
+    color: hsl(0, 0%, 100%);
+}
