@@ -75,3 +75,10 @@
 .half-content{
     color: hsl(0, 0%, 100%);
 }
+@media screen and (max-width:450px) {
+    .container{
+        
+        width: 280px;
+       
+    }
+}
